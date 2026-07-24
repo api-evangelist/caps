@@ -1,7 +1,25 @@
 aid: caps
 name: CAPS
-description: CAPS is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December
+  2014 whose mission is to maximize the total amount of happiness through health management (健康経営).
+  CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service,
+  provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness
+  gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in
+  Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018.
+  This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal,
+  or machine-readable specification.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://caps365.jp/wp-content/uploads/2021/04/i3ly3-ccr93-1-scaled.jpg
 url: https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health Management
+- Clinics
+- Telemedicine
+- Corporate Wellness
+- Fitness
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/caps-domain-security.yml
 - type: Website
   url: https://caps365.jp
+- type: Support
+  url: https://caps365.jp/contact/
+- type: PrivacyPolicy
+  url: https://caps365.jp/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
